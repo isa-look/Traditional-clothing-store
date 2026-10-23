@@ -1,0 +1,130 @@
+* { box-sizing: border-box;}
+body { margin: 0; font-family: Arial, sans-serif; color: #111827; background: #f5f8fc;  }
+.top { max-width: 1100px; margin: 20px auto 0; padding: 17px 23px; border: 3px solid #dce5f4; border-radius: 17px; background: white; display: flex; justify-content:space-between;  gap: 16px; flex-direction:column; }
+nav{
+    width: auto;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 0 10px;
+}
+
+.cho{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr;
+    gap: 24px
+    
+}
+
+.login{
+    margin-left: auto;
+    border: 1px #111827;
+    background: #2c258f;
+    color: #f5f8fc;
+    width: 90px;
+    border-radius: 3px;
+    justify-content: center;
+    height: 30px;
+    text-align: center;
+}
+a { 
+    color: #2c258f; 
+    text-decoration: none;
+    font-size: 24px;
+    
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+footer{
+    margin: 15px;
+}
+section{
+    margin: 24px;
+    display: grid;
+    gap: 10px;
+    width: auto;
+    grid-template-columns: 1fr;
+}
+.product-card{
+    display: flex;
+    flex-direction: column; /* Выстраивает все элементы внутри в колонку */            /* Делает одинаковые отступы между всеми элементами */
+    
+    width: auto;          /* Ширина карточки */
+    padding: 20px;         /* Внутренние отступы от краев карточки */
+    border: 1px solid #000;
+    border-radius: 150px; 
+    background-image: url(images/images.jpg);
+    height: 250px;
+    overflow: hidden; 
+    justify-content: center;
+    background-position: center; /* Центрирует картинку */
+    background-size: cover;      /* Растягивает картинку без искажения пропорций */
+    background-repeat: no-repeat; /* Запрещает размножение картинки */
+    font-size: 20px;
+}
+.product-card1{
+    display: flex;
+    flex-direction: column; /* Выстраивает все элементы внутри в колонку */            /* Делает одинаковые отступы между всеми элементами */
+    
+    width: auto;          /* Ширина карточки */
+    padding: 20px;         /* Внутренние отступы от краев карточки */
+    border: 1px solid #000;
+    border-radius: 150px; 
+    background-image: url(images/images1.jpg);
+    height: 250px;
+    overflow: hidden; 
+    justify-content: center;
+    background-position: center; /* Центрирует картинку */
+    background-size: cover;      /* Растягивает картинку без искажения пропорций */
+    background-repeat: no-repeat; /* Запрещает размножение картинки */
+    font-size: 20px;
+}
+.product-card2{
+    display: flex;
+    flex-direction: column; /* Выстраивает все элементы внутри в колонку */            /* Делает одинаковые отступы между всеми элементами */
+    
+    width: auto;          /* Ширина карточки */
+    padding: 20px;         /* Внутренние отступы от краев карточки */
+    border: 1px solid #000;
+    border-radius: 150px; 
+    background-image: url(/images/607742f500103dbae59a86e4b0.webp);
+    height: 250px;
+    overflow: hidden; 
+    justify-content: center;
+    background-position: center; /* Центрирует картинку */
+    background-size: cover;      /* Растягивает картинку без искажения пропорций */
+    background-repeat: no-repeat; /* Запрещает размножение картинки */
+    font-size: 20px;
+}
+
+.bay{
+    margin-left: auto;
+    border: 1px #111827;
+    background: #2c258f;
+    color: #f5f8fc;
+    width: 90px;
+    border-radius: 3px;
+    justify-content: center;
+    height: 30px;
+    text-align: center;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.card-title{
+    margin-left: 45%;
+    text-shadow: 0 0 #f5f8fc;
+    font-weight: 700px;
+    font-size: 5; 
+}
+
+.card-price{
+    color: green;
+    margin-left: 5%;
+    margin-top: auto;
+    font-size: 34px;
+}
